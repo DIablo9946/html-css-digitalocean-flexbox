@@ -1,0 +1,237 @@
+/* Mi occupo del header ma chiedere dei problemi relativi all'esistenza dello stesso */
+
+header {
+  width: 100%;
+  position: absolute;
+  /* height: 101px; */
+}
+
+.second-head {
+  margin-top: 51px;
+}
+
+#topbut {
+  text-transform: uppercase;
+  color: black;
+  background-color: lightgreen;
+  padding: 3px;
+  margin-top: 6px;
+  margin-left: 6px;
+  cursor: default;
+}
+ .right {
+   padding-right: 10px;
+ }
+
+/* #signinbut {
+  color: blue;
+  background-color: white;
+} */
+
+.btn-primary.btn-white {
+  background-color: white;
+  color: blue;
+}
+
+.navbar-default.white {
+  background-color: white;
+}
+
+
+#topbut, #more {
+  display: inline-block;
+}
+
+#more {
+  color: black;
+}
+
+#first {
+  width: 100%;
+  /* height: 750px; */
+  margin-top: 102px;
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+  padding: 150px 0px;
+
+}
+
+.grebut {
+  color: white;
+  background-color: green;
+  padding: 10px 45px;
+  border-radius: 10px;
+}
+
+.gobut {
+  color: black;
+  background-color: white;
+  padding: 10px 45px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#impo {
+  color: white;
+  font-size: 60px;
+  margin-top: 40%;
+  font-weight: 600;
+}
+
+#impo2 {
+  color: gray;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.box {
+  width: 350px;
+  height: 400px;
+  padding: 20px;
+  background-color: white;
+  margin-top: 40%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+  /* chiedere come mai non funziona il margine */
+#boxmain {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+
+/* Mi occupo della seconda sezione */
+
+#second {
+  /* height: 270px; */
+  width: 100%;
+  background-color: #F3F5F9;
+  padding: 60px 0px;
+  text-align: center;
+}
+
+
+#second img {
+  max-width: 140px;
+  margin: 20px 20px 0px 20px;
+}
+
+
+
+
+
+/* Mi occupo della terza sezione  */
+
+#third {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  width: 100%;
+  height: 790px;
+  /* text-align: center; */
+}
+
+.buttontag {
+  border: 0px;
+  border-left: 3px solid gray;
+  outline: none;
+  background-color: white;
+  display: block;
+}
+
+.selected {
+  border-left: 3px solid blue;
+
+}
+
+
+
+ #leftbo {
+   outline:none;
+   border-left: 5px solid gray;
+ }
+
+
+ /* Mi occupo della quarta sezione */
+
+#fourth {
+  width: 100%;
+  height: 1000px;
+  padding: 120px 0px;
+  background-color: #F3F5F9;
+  text-align: center;
+}
+
+#fourth img {
+  max-width: 60%;
+}
+
+/* Mi occupo della quinta sezione */
+
+#fifth {
+  width: 100%;
+  height: 590px;
+  padding: 120px 0px;
+  text-align: center;
+}
+
+
+/* Mi occupo della sesta sezione */
+
+#sixth {
+  width: 100%;
+  height: 740px;
+  padding: 120px 0px;
+  background-color: #F3F5F9;
+  text-align: center;
+}
+
+/* Mi occupo della sezione wolrd */
+
+#world {
+  width: 100%;
+  height: 640px;
+  padding: 120px 0px;
+  text-align: center;
+  background-image: url("img/data.svg");
+  background-color: darkblue;
+}
+
+
+
+/* Mi occupo della settima  sezione */
+
+#seventh {
+  height: 244px;
+  padding: 64px 0px;
+  width: 100%;
+  background-image: url("img/bg.jpg");
+  text-align: center;
+}
+
+
+/* Mi occupo del footer  */
+
+footer {
+  width: 100%;
+  padding: 96px 0px;
+  background-color: #010E28;
+}
+
+footer h5 {
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+footer a {
+  line-height: 30px;
+  color: gray;
+}
